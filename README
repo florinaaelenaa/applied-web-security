@@ -1,0 +1,25 @@
+/* 
+ * Authors: Florina Barbu
+ * Theme:   Photo App
+ * Purpose: Exemplify the vulnerabilities of an web app
+ * Date:	May 8th, 2017
+ *
+ */
+
+
+What's this application about?
+
+It has aimed to simulate a social website such as Instagram.
+It has no implementation such as likes or comments, because I followed the KISS(Keep it Simple Stupid) concept.
+
+What vulnerabilities were implemented?
+1. Bypassing Client-Side Control - Hidden checkbox
+2. Attacking authentication -Pass over CAPTCHA form
+3. Injecting Code - SQL Injection
+
+What protection were used?
+1. Clean session link
+2. Session timeout
+3. Using CAPTCHA
+
+By runing the documentation/index.html in your browser you'll find it out how to test it.
